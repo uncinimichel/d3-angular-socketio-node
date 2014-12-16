@@ -1,0 +1,18 @@
+<h1>Here is A twitter map</h1>
+The map to load: {{map.jsonFile}}
+<div>
+	<label for="tweetToTrack">Tweet to TRACK</label>	
+	<input id="tweetToTrack" ng-model="tweetToTrack"></input>
+	<button id="startTrackTweet" ng-click="startTrackTweet()">Start track!</button>
+	<button id="startTrackTweet" ng-click="addPoints()">ADD POINTS!</button>
+</div>
+
+<!-- <div>
+	<label for="tweetToUnTrack">Tweet to UN-TRACK</label>	
+	<input id="tweetToUnTrack" ng-model="tweetToUnTrack"></input>
+	<button id="stopTrackTweet" ng-click="stopTrackTweet()">Stop track!</button>
+</div>
+ -->
+<d3  map="map" points="points">
+	
+</d3>
